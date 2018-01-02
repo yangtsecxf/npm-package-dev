@@ -1,0 +1,9 @@
+; Audio.def : Declares the module parameters for the DLL.
+
+LIBRARY      "engine"
+
+EXPORTS
+    ; Explicit exports can go here
+    CreateIEngineInterface
+	ReleaseIEngineInterface
+    
